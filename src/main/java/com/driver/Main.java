@@ -7,20 +7,20 @@ public class Main {
       return ans;
     }
     
-    @Overload
+
     public int product(int x, int y, int z){
       int ans = x * y * z;
       return ans;
     }
     
-    @Overload
+
     public double product(double x, double y){
       double ans = x * y;
       return ans;
     }
     
   }
-  public static void main(String args[]) {
+  public void main(String args[]) {
     Product p = new Product();
     p.product(2, 3);
     
